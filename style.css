@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ 
+header{
+    background-color: #8D41D6 ;
+    color:#A69F00 ;
+    padding:4% ;
+}
+footer{
+    background-color: #A69F00 ;
+    color:#8D41D6 ;
+    padding:4%
+}
+footer p{
+    font-size: 150%;
+    text-align: center ;
+}
+header h1{
+    text-align: center;
+}
+.purple{
+    background-color: #8D41D6 ;
+    color:#A69F00;
+    width: 80%;
+    height: 40%;
+    margin-left: 3%;
+
+    
+    
+}
+.purple img{
+width: 80%;
+height: 100%;
+}
+.yellow{
+    margin-top: 25%;
+    background-color: #A69F00 ;
+    
+    width: 60%;
+    height: 40%;
+    margin-left: 3%;
+    color: #8D41D6;
+    padding-bottom: 5%;
+
+    
+    
+}
+.yellow img{
+width: 100%;
+height: 40%;
+}
+div{
+    display: flex;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-top: 5px groove #A69F00 ;
+    border-bottom: 5px groove #8D41D6  ;
+    padding: 4%;
+}
+nav a{
+    text-decoration: none;
+    color:#8D41D6 ;
+    font-size: 250%;
+}
+main h1{
+    text-align: center;
+    
+}
+
+main p{
+    margin-left: 3%;
+}
+table{
+    margin-left: 3%;
+    border: 3px dashed #8D41D6;
+    border-collapse: collapse;
+    width: 65%;
+    text-align: center;
+}
+td{
+    padding: 1%;
+}
+tr,td{
+    border: 3px dashed #8D41D6;
+}
